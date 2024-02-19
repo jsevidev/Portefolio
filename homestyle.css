@@ -1,0 +1,88 @@
+* {
+    font-family: Helvetica, sans-serif;
+
+}
+
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+  background-color: #4b4949;
+  text-align: center;
+
+  background-image: url('galaxy2.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+  color: #f8f8f8;
+}
+
+img {
+  max-width: 18%;
+  height: 10%;
+  filter: drop-shadow(10px 5px 20px grey );
+  
+}
+
+
+
+
+
+ .heading p {
+    text-align: center;
+    color: #f8f8f8; 
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+
+
+.border p {
+    text-align: center;
+    color: #f8f8f8;
+    text-shadow: 3px 2px 3px rgb(0, 0, 0);
+   
+}
+
+
+.border {
+    text-align: center;
+    color: #f8f8f8;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+
+
+
+.border h2 {
+    color: #f8f8f8;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
+
+}
+
+
+
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #f8f8f8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
